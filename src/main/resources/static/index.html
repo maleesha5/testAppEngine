@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Database</title>
+</head>
+<h1 style="text-align: center">Select Page</h1>
+
+<body>
+
+    <button id="addButton">Add Employee</button></br>
+    </br>
+    <button id="searchButton">Search Employee</button></br>
+    </br>
+    <button id="viewAll">View All</button>
+
+    <script type="text/javascript">
+        document.getElementById("addButton").onclick = function() {
+            location.href = "/create";
+        };
+
+        document.getElementById("searchButton").onclick = function() {
+            location.href = "/search";
+        };
+
+        document.getElementById("viewAll").onclick = function() {
+            location.href = "/getAll";
+        };
+    </script>
+
+</body>
+
+</html>
